@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Admission @DMCE</title>
+        <style>
+            .btncls{
+                background-color: lightblue;
+                border-radius: 5px;
+                height: 30px;
+                width: 100px;
+            }
+            #fs1{
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="success.html" method="">
+            <h3>Fill The Details!!</h3>
+            <fieldset id="fs1">
+                <div>
+                    <label> First Name: </label><input type="text" name="name" size="50" maxlenght="45" required>
+                    <br>
+                    <br>
+                    <label> Last Name: </label><input type="text" name="name" size="50" maxlenght="45" required>
+                </div>
+                <br>
+                <div>
+                    <label> Gender: </label>
+                    <input type="radio" name="name"><label> Male </label>
+                    <input type="radio" name="name"><label> Female </label>
+                </div>
+                <br>
+                <div>
+                    <label> Email Id: </label><input type="email" name="name" size="50" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="xxxxx@xxx.xxxx" required>
+                </div>
+                <br>
+                <div>
+                    <label> Date Of Birth: </label><input type="date" name="name" required>
+                </div>
+                <br>
+                <div>
+                    <label>Residence Location: </label>
+                    <select>
+                        <option>Hyderabad</option>
+                        <option>Banglore</option>
+                        <option>Chennai</option>
+                        <option>Mumbai</option>
+                        <option>Pune</option>
+                    </select>
+                </div>
+                <br>
+                
+                <div>
+                    <label> Phone Number: </label><input type="tel" name="phnum" pattern="+91[7-9]{1}[0-9]{9}">
+                </div>
+                <br>
+                <div>
+                    <label>10th Grade: </label>
+                    <select>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>12th Grade: </label>
+                    <select>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>CET/JEE Score Grade: </label>
+                    <select required>
+                        <option value="">--select Grade--</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                    </select>
+                </div>
+                <br>
+                
+                <div>
+                    <label> Upload Marksheets: </label><input type="file" multiple>
+                </div>
+                <br>
+                <div>
+                    <label> Interested Branch code: </label>
+                    <select required>
+                        <option value="">--select Branch code--</option>
+                        <option>Computer Engg. - 001</option>
+                        <option>Civil Engg. -002</option>
+                        <option>Mechanical Engg. -003</option>
+                        
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <a href="RulesAndRegulations.html">Click Here to check Rules and Regulations</a>
+                    <br>
+                    <br>
+                    <input type="checkbox" name="calltime" required><label>I agree all Rules and Regulations</label>
+                </div>
+                <br>
+                <div>
+                <input type="Submit" class="btncls" name="submit" onclick="alert('Form Submitted !!')" >
+                <input type="Reset" class="btncls" name="reset" >
+                </div>
+                <br>
+            </fieldset>
+        </form>
+    
+    </body>
+
+</html>

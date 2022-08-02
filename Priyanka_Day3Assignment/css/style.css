@@ -1,0 +1,123 @@
+body{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
+    margin: 50px auto;
+    background-image: repeating-radial-gradient(rgb(115, 192, 85),rgb(65, 137, 165),rgb(211, 126, 78));
+}
+article{
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    background-image: radial-gradient(rgb(188, 209, 145), rgb(161, 231, 231));
+    overflow: scroll;
+  
+    height: 800px;
+}
+footer{
+    background-color:rgb(143, 190, 143);
+    border-radius: 3px;
+    text-align: center;
+}
+#div1{
+    position: sticky;
+    top: 5px;
+    background-color:rgb(143, 190, 143);
+    border-radius: 3px;
+    /*padding: 10px;*/
+}
+/*
+header{
+    position: sticky;
+    top: 0px;
+    
+    background-color:rgb(143, 190, 143);
+    border-radius: 3px;
+}
+*/
+
+hr{
+    border: 5px solid olivedrab;
+    border-radius: 5px;
+}
+#img1 {
+    display: inline;
+    float: right;
+    /*visibility: hidden*/
+    margin: auto 50px auto;
+    border: 2px solid black;
+}
+
+/*#div2{
+   display: inline;
+   
+}*/
+
+
+#p1::first-letter{
+    color:aqua ;
+    font-size: x-large;
+    background-color: darkblue;
+    margin-left: 50px;
+    padding: 5px;
+    border: 3px solid aqua;
+    text-decoration: dotted;
+    vertical-align: baseline;
+    float:inline-start;
+    text-transform:capitalize;
+    line-height: 5px;
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:normal;
+}
+
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+#p1::first-line{
+    color: blue;
+}
+p::selection{
+    color: red;
+    background-color: aqua;
+}
+#div3::after{
+    content: url("C:/Users/priya/OneDrive/Desktop/Priyanka/WEB DEV/CSS/Priyanka_Day3Assignment/img/covid2.jpeg");
+    float:left;
+    display: inline;
+    /*visibility: hidden*/
+    margin: 10px 10px 10px 10px;
+    border: 2px solid black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(143, 190, 143);
+    
+  }
+
+li {
+    display: inline;
+    
+} 
+li a {
+    display: inline;
+    padding: 10px 20px;
+    margin: auto;
+    text-decoration: none;
+}
+li a:hover{
+    background-color:navajowhite;
+}
+li {
+    border-right: 1px solid black;
+  }
+  
+li:last-child {
+    border-right: none;
+  }
